@@ -1,0 +1,26 @@
+{
+  "name": "yx-translate",
+  "version": "1.0.0",
+  "description": "Angular 2+ module for handling translations, uses local storage for changing languages in runtime",
+  "main": "translation.module.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfrancekovic/yx-translate.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "translate",
+    "translation"
+  ],
+  "author": "Marko Francekovic <marko.francekovic@calyx.hr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfrancekovic/yx-translate/issues"
+  },
+  "homepage": "https://github.com/mfrancekovic/yx-translate#readme"
+}
