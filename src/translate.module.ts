@@ -8,11 +8,12 @@ import {TranslateConfig, TranslateService} from "./services/translate.service";
     CommonModule
   ],
   exports: [
-    TranslatePipe
+    TranslatePipe,
+    TranslateService
   ],
   declarations: [TranslatePipe]
 })
-export class TranslationModule {
+export class TranslateModule {
 
   static forRoot(language?: string, folder?: string): ModuleWithProviders {
 
@@ -28,7 +29,7 @@ export class TranslationModule {
     }
 
     return {
-      ngModule: TranslationModule,
+      ngModule: TranslateModule,
       providers: [
         TranslateService,
         {provide: "translate.config", useValue: translateConfig}

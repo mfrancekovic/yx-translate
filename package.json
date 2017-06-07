@@ -1,10 +1,11 @@
 {
   "name": "yx-translate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular 2+ module for handling translations, uses local storage for changing languages in runtime",
-  "main": "translation.module.ts",
+  "main": "yx-translate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/mfrancekovic/yx-translate/issues"
   },
-  "homepage": "https://github.com/mfrancekovic/yx-translate#readme"
+  "homepage": "https://github.com/mfrancekovic/yx-translate#readme",
+  "devDependencies": {
+    "@angular/common": "4.1.3",
+    "@angular/core": "4.1.3",
+    "@angular/http": "^4.1.3",
+    "@angular/platform-browser": "^4.1.3",
+    "@angular/platform-browser-dynamic": "^4.1.3",
+    "@angular/compiler": "^4.1.3",
+    "rxjs": "5.4.0",
+    "typescript": "^2.3.4",
+    "zone.js": "0.8.11"
+  }
 }

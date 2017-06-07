@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "inlineSources": false,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "stripInternal": true,
+    "skipLibCheck": true
+  },
+  "files": [
+    "yx-translate.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
